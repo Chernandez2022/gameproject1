@@ -9,11 +9,13 @@
   height: 400px;
   width: 50px;
   background-color: black;
-  position: absolute;
-  right: 0;
+  position: relative;
+  left: 0;
   bottom: 0;
-  animation-name: slide;
-  animation-duration: 4ss;
+  /* animation-name: pillar;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; */
 }
 
 #character {
@@ -22,4 +24,13 @@
   background-color: aqua;
   position: relative;
   left: 100px;
+}
+
+@keyframes pillar {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 300px;
+  }
 }
