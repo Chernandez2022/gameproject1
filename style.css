@@ -1,0 +1,9 @@
+body {
+  background-color: blueviolet;
+  background-image: -moz-linear-gradient(blue, orange);
+}
+
+h1 {
+  font-size: 72px;
+  color: rgb(88, 11, 41);
+}
