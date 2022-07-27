@@ -1,7 +1,7 @@
 let questions = [
   {
     prompt:
-      "What is the capital of New Jersey? \n (a) Wayne \n (b) Paramus \n c Trenton \n (d) (Paterson)",
+      "What is the capital of New Jersey? \n (a) Wayne \n (b) Paramus \n (c) Trenton \n (d) (Paterson)",
     answer: "c",
   },
   {
@@ -40,7 +40,15 @@ let questions = [
   },
 ];
 
-let count = 0;
+let counter = 0;
 for (let i = 0; i < questions.length; i++) {
-  let input = window.prompt(questions[i].prompt);
+  let response = window.prompt(questions[i].prompt);
+  if (response == questions[i].answer) {
+    counter++;
+    alert("Correct!!!");
+  } else {
+    alert("Wrong!!!");
+  }
 }
+
+alert("You got" + counter + "correct");
