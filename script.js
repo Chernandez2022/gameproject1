@@ -1,7 +1,7 @@
 let questions = [
   {
     prompt:
-      "What is the capital of New Jersey? \n (a) Wayne \n (b) Paramus \n (c) Trenton \n (d) (Paterson)",
+      "What is the capital of New Jersey? \n (a) Wayne \n (b) Paramus \n c Trenton \n (d) (Paterson)",
     answer: "c",
   },
   {
@@ -25,7 +25,7 @@ let questions = [
   },
   {
     prompt:
-      "What never asks a question but gets answered all the time?? \n (a) Computer\n (b) Cellphone \n (c) The door \n (d) A delivery",
+      "What never asks a question but gets answered all the time?? \n a Computer\n (b) Cellphone \n (c) The door \n (d) A delivery",
     answer: "b",
   },
   {
@@ -39,3 +39,8 @@ let questions = [
     answer: "d",
   },
 ];
+
+let count = 0;
+for (let i = 0; i < questions.length; i++) {
+  let input = window.prompt(questions[i].prompt);
+}
