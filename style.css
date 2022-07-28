@@ -6,4 +6,12 @@ body {
 h1 {
   font-size: 72px;
   color: rgb(88, 11, 41);
+  text-align: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
