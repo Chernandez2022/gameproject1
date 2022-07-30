@@ -1,7 +1,35 @@
 function check() {
   let counter = 0;
   let question1 = document.quiz.question1.value;
+  let question2 = document.quiz.question2.value;
+  let question3 = document.quiz.question3.value;
+  let question4 = document.quiz.question4.value;
+  let question5 = document.quiz.question5.value;
+  let question6 = document.quiz.question6.value;
+  let question7 = document.quiz.question7.value;
+  let question8 = document.quiz.question8.value;
   if (question1 == "Trenton") {
+    counter++;
+  }
+  if (question2 == "Australia") {
+    counter++;
+  }
+  if (question3 == "21") {
+    counter++;
+  }
+  if (question4 == "12") {
+    counter++;
+  }
+  if (question5 == "Lunch and Dinner") {
+    counter++;
+  }
+  if (question6 == "Cellphone") {
+    counter++;
+  }
+  if (question7 == "A widow") {
+    counter++;
+  }
+  if (question8 == "Stairs") {
     counter++;
   }
   document.write(counter);
