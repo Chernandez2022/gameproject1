@@ -1,3 +1,11 @@
+function check() {
+  let counter = 0;
+  let question1 = document.quiz.question1.value;
+  if (question1 == "Trenton") {
+    counter++;
+  }
+  document.write(counter);
+}
 // let questions = [
 //   {
 //     prompt:
