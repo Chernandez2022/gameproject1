@@ -32,7 +32,13 @@ function check() {
   if (question8 == "Stairs") {
     counter++;
   }
-  document.write(counter);
+  let result = document.getElementById("result");
+
+  if (counter <= 4) {
+    result.textContent = "You Lose!";
+  } else {
+    result.textContent = "You Win!";
+  }
 }
 // let questions = [
 //   {
