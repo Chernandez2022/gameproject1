@@ -35,9 +35,9 @@ function check() {
   }
 
   if (counter <= 4) {
-    result.textContent = "You Lose!";
+    alert("You Lose!");
   } else {
-    result.textContent = "You Win!";
+    alert("You Win!");
   }
 }
 // let questions = [
