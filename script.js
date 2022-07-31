@@ -8,6 +8,7 @@ function check() {
   let question6 = document.quiz.question6.value;
   let question7 = document.quiz.question7.value;
   let question8 = document.quiz.question8.value;
+  let result = document.getElementById("result");
   if (question1 == "Trenton") {
     counter++;
   }
@@ -32,7 +33,6 @@ function check() {
   if (question8 == "Stairs") {
     counter++;
   }
-  let result = document.getElementById("result");
 
   if (counter <= 4) {
     result.textContent = "You Lose!";
