@@ -1,5 +1,5 @@
 // scss variables!
-$primary-color: #0e6cff;
+$primary-color: #411aaa;
 $secondary-color: #ff8700;
 $fonts: Arial, Helvetica, Serif;
 
@@ -15,4 +15,11 @@ body {
   background-color: $primary-color;
   font-family: $fonts;
   line-height: 1.5;
+}
+
+.quiz {
+  p {
+    font-size: medium;
+    text-align: center;
+  }
 }

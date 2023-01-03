@@ -5,9 +5,14 @@
 }
 
 body {
-  background-color: #0e6cff;
+  background-color: #411aaa;
   font-family: Arial, Helvetica, Serif;
   line-height: 1.5;
+}
+
+.quiz p {
+  font-size: medium;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
