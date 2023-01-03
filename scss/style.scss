@@ -1,25 +1,37 @@
 // scss variables!
-$primary-color: #411aaa;
-$secondary-color: #ff8700;
+$primary-color: #b68f10;
+$secondary-color: #2761a3;
 $fonts: Arial, Helvetica, Serif;
+$border-radius: 5px;
 
 // basic page styling. Some of it needs compiling!
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 body {
   background-color: $primary-color;
-  font-family: $fonts;
-  line-height: 1.5;
-}
 
-.quiz {
-  p {
-    font-size: medium;
+  &.h1 {
+    color: $primary-color;
+  }
+  .ghost {
+    color: $secondary-color;
+    font-style: $fonts;
     text-align: center;
   }
 }
+
+@mixin border-radius($radius) {
+  border-radius: $radius;
+}
+
+// body {
+//   background-color: $primary-color;
+//   font-family: $fonts;
+//   line-height: 1.5;
+// }
+
+// .quiz {
+//   p {
+//     font-size: medium;
+//     text-align: center;
+//   }
+// }
