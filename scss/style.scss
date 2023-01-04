@@ -1,37 +1,49 @@
 // scss variables!
 $primary-color: #b68f10;
-$secondary-color: #2761a3;
-$fonts: Arial, Helvetica, Serif;
+$secondary-color: #27e4b5;
+$third-color: rgb(187, 14, 86);
+$fonts: lucida;
 $border-radius: 5px;
 
 // basic page styling. Some of it needs compiling!
 
 body {
-  background-color: $primary-color;
+  @function average-color($color1, $color2, $color3) {
+    @return mix($color1, mix($color2, $color3));
+  }
+  background-color: average-color(
+    $primary-color,
+    $secondary-color,
+    $third-color
+  );
 
-  &.h1 {
+  @mixin center {
+    text-align: center;
+  }
+
+  .title {
     color: $primary-color;
+    text-align: center;
+    font-size: 50px;
   }
   .ghost {
     color: $secondary-color;
-    font-style: $fonts;
+    font-family: $fonts;
     text-align: center;
   }
+
+  .trick {
+    @include center();
+    color: palegreen;
+  }
+
+  .night {
+    @include center();
+    color: greenyellow;
+  }
+
+  .zom {
+    @include center();
+    color: plum;
+  }
 }
-
-@mixin border-radius($radius) {
-  border-radius: $radius;
-}
-
-// body {
-//   background-color: $primary-color;
-//   font-family: $fonts;
-//   line-height: 1.5;
-// }
-
-// .quiz {
-//   p {
-//     font-size: medium;
-//     text-align: center;
-//   }
-// }
