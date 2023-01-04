@@ -1,0 +1,28 @@
+-finished up styling :)
+-messed around with styling
+-initiated typescript and sass setup
+-set up sass folders and tested styling
+-testing
+-updated condition
+-testing
+-added win lose condition
+-added rest of the answers
+-test function works!
+-added button
+-added questions to the html
+-tried to center an img
+-added some styling
+-unused assets
+-changed readme
+-added counter and alerts
+-fixed script tag made for loop
+-added questions
+-made changes
+-started over
+-animation for pillar
+-fixed div changed positions
+-added character and basic pillar
+-added character, pillars, tried some animations
+-added boilerplate
+-my first commit
+-first commit
